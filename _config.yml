@@ -1,34 +1,22 @@
 # Site settings
 title: Amber Dallas
 email: amberdallas70@gmail.com
-url: https://amberdallas-portfolio.github.io
+url: "https://amberdallas-portfolio.github.io"
+baseurl: "/cyber-portfolio"
 description: "Portfolio of cybersecurity work samples for a junior-level cyber security professional."
 keywords: "cybersecurity, cyber, security, portfolio, tech"
 skills: "Cybersecurity - Analyst - Ethical Hacker"
 meta_author: Amber Dallas
 
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
+# Contact form
 contact: static
 
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: 
-
-# Color settings (hex-codes without the leading hash-tag)
+# Color settings
 color:
-  primary: BDE0FE #80B3FF
-  primary-rgb: "45,215,185" #"128,179,255"
-  secondary: FFAFCC #FD6E8A
-  secondary-dark: CDB4DB #A2122F
+  primary: BDE0FE
+  primary-rgb: "45,215,185"
+  secondary: FFAFCC
+  secondary-dark: CDB4DB
 
 # Footer settings
 footer:
@@ -37,33 +25,12 @@ footer:
   social: Around the Web
   credits: Credits
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/amber-dallas/
   - title: github
     url: https://github.com/amberdallas-portfolio
 
-# Email Address (make sure to include "mailto:" before your email!)
-email: mailto: amberdallas70@gmail.com
-  email-url: mailto:amberdallas70@gmail.com
-
-# Postal address (add as many lines as necessary)
-location:
-  - line: New Philadelphia, Ohio
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.
-Cyber icons created by <a href="https://www.flaticon.com/free-icons/cyber-attack" title="cyber attack icons">Freepik - Flaticon</a>.'
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-
-#for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: ""
+# Email link
+contact_email: "mailto:amberdallas70@gmail.com"
